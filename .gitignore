@@ -1,50 +1,73 @@
-# Android Studio / IntelliJ
-# =========================
-# User-specific settings
-/.idea/workspace.xml
-/.idea/tasks.xml
-/.idea/gradle.xml
-/.idea/deployment.xml
-/.idea/misc.xml
-/.idea/assetWizardSettings.xml
-/.idea/navEditor.xml
-.idea/dictionaries/
-
-# Generated files and caches
+####################################
+# Android Studio / IntelliJ IDEA
+####################################
+.idea/
 *.iml
-/.idea/caches/
-/.idea/libraries/
-/.idea/modules.xml
+
+####################################
+# Gradle
+####################################
 .gradle/
+build/
+**/build/
 
+####################################
 # Local configuration
-# ===================
-/local.properties
+####################################
+local.properties
 
-# Build output
-# ============
-/build/
-/captures/
+####################################
+# Android outputs
+####################################
 *.apk
 *.aab
 *.ap_
 *.dex
 
+####################################
 # Native build
-# ============
+####################################
 .cxx/
 .externalNativeBuild/
 
-# Logs and system files
-# =====================
+####################################
+# Logs & OS files
+####################################
 *.log
 .DS_Store
+Thumbs.db
 
-# Keystore files
-# ==============
+####################################
+# Keystore / signing
+####################################
 *.jks
 *.keystore
+*.pem
 
-# Custom folders
-# ==============
-/fonts/
+####################################
+# Captures
+####################################
+captures/
+
+####################################
+# Fonts (NO versionar fuentes)
+####################################
+app/src/main/res/font/
+
+####################################
+# Test & coverage
+####################################
+coverage/
+*.ec
+
+####################################
+# Kotlin / JVM
+####################################
+*.class
+
+####################################
+# Temporary / backup files
+####################################
+*~
+*.swp
+*.bak
