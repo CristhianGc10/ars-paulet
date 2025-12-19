@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include user progress and settings -->
+    <include domain="database" path="ars_paulet_database" />
+    <include domain="sharedpref" path="." />
+    
+    <!-- Exclude cache -->
+    <exclude domain="cache" path="." />
+    <exclude domain="no_backup" path="." />
+</full-backup-content>

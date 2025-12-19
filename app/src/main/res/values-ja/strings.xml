@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Ars Paulet</string>
+    <string name="app_tagline">日常生活のための日本語</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_courses">コース</string>
+    <string name="nav_profile">プロフィール</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_back">戻る</string>
+    
+    <!-- Activities -->
+    <string name="activity_listening">聴解</string>
+    <string name="activity_conversation">会話</string>
+    <string name="activity_reading">読解</string>
+    <string name="activity_writing">作文</string>
+    
+    <!-- Common -->
+    <string name="lesson">レッスン</string>
+    <string name="lessons">レッスン</string>
+    <string name="completed">完了</string>
+    <string name="locked">ロック中</string>
+    <string name="progress">進捗</string>
+    <string name="continue_learning">続ける</string>
+    <string name="start">始める</string>
+</resources>

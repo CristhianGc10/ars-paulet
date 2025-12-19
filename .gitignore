@@ -1,0 +1,50 @@
+# Android Studio / IntelliJ
+# =========================
+# User-specific settings
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/deployment.xml
+/.idea/misc.xml
+/.idea/assetWizardSettings.xml
+/.idea/navEditor.xml
+.idea/dictionaries/
+
+# Generated files and caches
+*.iml
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+.gradle/
+
+# Local configuration
+# ===================
+/local.properties
+
+# Build output
+# ============
+/build/
+/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Native build
+# ============
+.cxx/
+.externalNativeBuild/
+
+# Logs and system files
+# =====================
+*.log
+.DS_Store
+
+# Keystore files
+# ==============
+*.jks
+*.keystore
+
+# Custom folders
+# ==============
+/fonts/
